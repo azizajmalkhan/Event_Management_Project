@@ -1,0 +1,319 @@
+@charset "ISO-8859-1";
+body{
+    background-color:rgb(6, 6, 53);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color:rgb(49, 46, 46)
+}
+nav .logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul
+{
+   float: right;
+
+}
+nav li
+{
+    display: inline-block;
+    list-style: none;
+}
+nav li a 
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover
+{
+    color: aqua;
+}
+.container
+{
+    background-image: url("https://res.cloudinary.com/dulc7ullq/image/upload/v1679750782/fskqsdmhcmtrnadgcmunaflw1nh5tavkkv3n4kztdzp8kbz3mdyso1yajjfq2c1o-_sqlvab.jpg");
+    height: 87vh;
+    background-size: cover;
+}
+.h11{
+    color:white;
+    font-size:50px;
+    font-style: bold;
+    margin-left:120px;
+    margin-top: 60px;
+}
+.h22{
+        color:white;
+        font-size:50px;
+        font-style: bold;
+        margin-left:220px;
+}
+.c{
+    color:red;
+}
+.b1{
+    background-color: transparent;
+    color:white;
+    margin-left:150px;
+    margin-top:20px;
+    font-size: larger;
+    border-width: 3px;
+    border-color: aliceblue;
+}
+.b2{
+    background-color: transparent;
+    color:white;
+    margin-left:180px;
+    font-size: larger;
+    border-width: 3px;
+    border-color: aliceblue;
+}
+
+
+/*.h11{
+    color:white;
+    font-size:50px;
+    font-style: bold;
+    margin-left:120px;
+    margin-top: 70px;
+}
+.h22{
+        color:white;
+        font-size:50px;
+        font-style: bold;
+        margin-left:220px;
+}
+.c{
+    color:red;
+}
+.b1{
+    background-color: transparent;
+    color:white;
+    margin-left:150px;
+    margin-top:20px;
+    font-size: medium;
+    border-width: 3px;
+    border-color: aliceblue;
+}
+.b2{
+    background-color: transparent;
+    color:white;
+    margin-left:180px;
+    font-size: medium;
+    border-width: 3px;
+    border-color: aliceblue;
+}
+*/
+.services
+{
+    padding: 10px;
+    margin: 10px;
+    
+}
+.heading
+{
+    text-align: center;
+    text-transform: uppercase;
+    color:whitesmoke;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.services .slide
+{
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+}
+.services .slide img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.services .slide .content
+{
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: var(--transparent-white);
+    backdrop-filter: blur(.5rem);
+    padding :1rem;
+    text-align: center;
+
+}
+.services .slide .content h3
+{
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: uppercase;
+
+}
+.services .slide .content p
+{
+    font-size: 1.5rem;
+    color:white;
+    padding: 1rem 0;
+    line-height: 2;
+}
+.services .slide {
+    width: 400px; /* Adjust this based on your design */
+    height: 400px; /* Adjust this based on your design */
+    float: left; /* Float the slides to create a horizontal layout */
+    margin: 10px; /* Adjust margin as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.heading1
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.aboutus div{
+    width: 100%;
+    height: 180px;
+    border: 2px solid rgb(3, 118, 3);
+}
+.c1
+{
+    width: 600px;
+    height: 400px;
+    float: left;
+    border: rgb(130, 208, 130);
+}
+p
+{
+    font-size: larger;
+    padding: 20px;
+    color: white;
+}
+/*
+css gallery
+*/
+.heading
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.gall
+{
+    padding: 10px;
+    margin: 10px;
+       
+}
+.gall .slide
+{
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+}
+.gall .slide img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gall .slide
+{
+    width: 300px; /* Adjust this based on your design */
+    height: 300px; /* Adjust this based on your design */
+    float: left; /* Float the slides to create a horizontal layout */
+    margin: 10px; /* Adjust margin as needed */
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.contact form
+{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+.contact form .inputBox
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .inputBox input,
+.contact form textarea
+{
+    width: 100%;
+    background-color: #333;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: .7rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: none;
+}
+.contact form .inputBox input::placeholder,
+.contact form textarea::placeholder
+{
+    color: #fff;
+    text-transform: capitalize;
+}
+.contact form .inputBox input:focus,
+.contact form textarea:focus
+{
+    color: #fff;
+    background-color: #444;
+}
+.contact form .inputBox input
+{
+    width: 49%;
+}
+.contact form textarea
+{
+    resize: none;
+}
+.btn {
+    background-color: #3498db; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 10px 20px; /* Set padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 16px; /* Set the font size */
+    transition: background-color 0.3s ease; /* Add a smooth transition for background color */
+}
+.btn:hover {
+    background-color: #0a3b5b; /* Change the background color on hover */
+}
+.footer
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer > div
+{
+    width: 300px;
+    height: 200px;
+    padding-left: 20px;
+    background-color:rgb(231, 228, 228);
+}
+ul{
+    list-style-type: none;
+}
